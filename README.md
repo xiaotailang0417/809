@@ -2,6 +2,7 @@
  
  - 请安装nodejs然后执行一下代码
  - npm install
+ - 修改809.js里的playURL内容
  - node 809.js
 
 然后把index.php上传到你的网站里的
