@@ -15,8 +15,8 @@ str = "if5ax/?fakeid=nYkyzjSrtNKGi8CvWQGhaC&spid=81117&pid=81117&spip=121.22.5.6
 spkey = MD5(str)
 
 url = f"http://dir.v.wo.cn:809/if5ax/?fakeid=nYkyzjSrtNKGi8CvWQGhaC&spid=81117&pid=81117&spip=121.22.5.6&spport=443&ugpid=81117&spkey={spkey}"
-#print(url)
+print(url)
 resp = requests.get(url)
 url = resp.json()['url']
-#print(url)
+print(url)
 
