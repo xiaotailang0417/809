@@ -15,7 +15,7 @@
 
 api文件为index.js
 
-# api使用方法如下
+### api使用方法如下
 
 - 先 node i
 - 如果报错就
